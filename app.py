@@ -22,7 +22,7 @@ np.random.seed(seed)
 
 app=Flask(__name__)
 
-
+print("ejecutando")
 pkl_filename = "usa_model_item_item_k10.pkl" ##Modelo
 
 all_users=pd.read_csv("all_users.csv")
