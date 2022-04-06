@@ -81,7 +81,7 @@ gevent==1.4.0
 glob2==0.7
 gmpy2==2.0.8
 greenlet==0.4.15
-h5py @ file:///Users/runner/miniforge3/conda-bld/h5py_1595110209982/work
+h5py 
 HeapDict==1.0.1
 html5lib==1.0.1
 htmlmin==0.1.12
@@ -336,7 +336,7 @@ pyobjc-framework-Virtualization==8.4
 pyobjc-framework-Vision==8.4
 pyobjc-framework-WebKit==8.4
 pyodbc===4.0.0-unsupported
-Pyomo @ file:///Users/runner/miniforge3/conda-bld/pyomo_1592598246566/work
+Pyomo 
 pyOpenSSL==19.1.0
 pyparsing==2.4.6
 pyperclip==1.8.2
@@ -359,7 +359,7 @@ python-language-server==0.31.7
 python3-openid==3.2.0
 pytweening==1.0.4
 pytz==2018.9
-PyUtilib @ file:///home/conda/feedstock_root/build_artifacts/pyutilib_1592579362902/work
+PyUtilib 
 PyWavelets==1.1.1
 pywhatkit==5.3
 PyYAML==5.3
@@ -380,7 +380,7 @@ rubicon-objc==0.4.2
 scikit-image==0.16.2
 scikit-learn==0.24.2
 scikit-surprise==1.1.1
-scipy @ file:///Users/runner/miniforge3/conda-bld/scipy_1595583590545/work
+scipy 
 seaborn==0.11.2
 Send2Trash==1.5.0
 simplegeneric==0.8.1
