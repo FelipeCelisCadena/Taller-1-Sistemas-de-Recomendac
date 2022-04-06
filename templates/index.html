@@ -1,0 +1,14 @@
+{% extends 'base.html' %}  
+      {% block content %}
+
+      <div class="container">
+    <h1>Hola Mis perros!</h1>
+    <p>
+        {% for c in Country %}
+            {{c}}<br/>
+        {% endfor %}
+
+
+    </p>
+      </div>
+      {% endblock %}
