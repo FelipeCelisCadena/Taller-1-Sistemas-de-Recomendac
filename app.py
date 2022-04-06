@@ -40,7 +40,7 @@ def index():
 
 @app.route('/login')
 def new_users():
-    titulo= " Taller 1 Sistemas de Recomendación"
+    titulo= " Taller 1 Sistemas de Recomendacion"
     Countries=['USA','Japan','Germany']
     return render_template("results.html", title=titulo,Country=Countries)
 
@@ -48,7 +48,7 @@ def new_users():
 def form():
     user=request.form.get("user_id")
     artist=request.form.get("artist_name")
-    titulo= "Taller 1 Sistemas de Recomendación"
+    titulo= "Taller 1 Sistemas de Recomendacion"
 
     if not  user or not artist:
         error_statement='Debes llenar ambos campos... intenta de nuevo'
@@ -71,7 +71,7 @@ def form():
     valid_country=1==(v[v['Country']==country_user].shape[0])
 
     if valid_country==False:
-        error_statement=f'El país de este usuario {country_user} no tiene suficiente información, intenta de nuevo'
+        error_statement=f'El pais de este usuario {country_user} no tiene suficiente informacion, intenta de nuevo'
         return render_template("error_form.html", error_statement=error_statement) 
 
     
