@@ -33,7 +33,7 @@ with open(pkl_filename, 'rb') as file:
 
 @app.route('/')
 def index():
-    titulo= " Taller 1 Sistemas de Recomendación"
+    titulo= " Taller 1 Sistemas de Recomendacion"
     Countries=['USA','Japan','Germany']
     return render_template("index.html", title=titulo,Country=Countries)
 
