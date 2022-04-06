@@ -35,7 +35,7 @@ click==8.0.3
 cloudpickle  
 colorama  
 comtypes==1.1.10
-conda==4.3.16
+conda==4.0.3
 conda-content-trust  
 conda-pack  
 conda-package-handling  
