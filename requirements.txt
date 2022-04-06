@@ -420,8 +420,8 @@ terminado==0.8.3
 testpath==0.4.4
 textsearch==0.0.21
 thinc==8.0.10
-threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
-toml @ file:///tmp/build/80754af9/toml_1592853716807/work
+threadpoolctl 
+toml 
 toolz==0.10.0
 tornado==6.0.3
 tqdm==4.62.3
